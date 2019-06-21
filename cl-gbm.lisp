@@ -6,7 +6,8 @@
                 "/usr/lib64/libgbm.so"
                 "/usr/lib/x86_64-linux-gnu/libgbm.so"
                 "/usr/lib/x86_64-linux-gnu/libgbm.so.1"
-                "/usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0"))
+                "/usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0"
+                "libgbm.so.1.0.0"))
   (t (:default "libgbm")))
 
 (use-foreign-library libgbm)
